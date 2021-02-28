@@ -1,0 +1,7 @@
+FROM python:3.4-alpine
+LABEL MAINTAINER "Jonas Cesconetto <jonascesconetto@gmail.com>"
+ADD ./app /app
+WORKDIR /app
+EXPOSE 8080
+RUN pip install -r requirements.txt
+CMD ["python", "app.py"]

@@ -1,0 +1,3 @@
+FROM nginx
+LABEL MAINTAINER "Jonas Cesconetto <jonascesconetto@gmail.com>"
+COPY ./site /usr/share/nginx/html
