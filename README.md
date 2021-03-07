@@ -1,3 +1,3 @@
-## Imersão de Containers
+## Imersão de Docker Containers
 
-- Do básico ao cluster com docker-swarm
+- Do básico ao cluster (docker-swarm).
